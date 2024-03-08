@@ -79,6 +79,7 @@ https://codingapple.com/course/javascript-jquery-ui/
 </details>
 
 #### 쉽게 이해하는 JavaScript 객체지향 & ES6 신문법
+https://codingapple.com/course/javascript-es6/
 <details>
 <summary>part 1</summary>
 <div markdown="1"> 
