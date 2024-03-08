@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="alert-box" id="alert">
+    <p>알림창임ㅋ</p>
+    <button onclick="alertAction('none')">닫기</button>
+</div>
+<button onclick="alertAction('block')">버튼</button>
+
+
+<div class="alert-box" id="id">
+    <p>id를 입력해주세요</p>
+</div>
+<button onclick="openLoginAlert('id')">버튼</button>
+
+<div class="alert-box" id="pwd">
+    <p>password를 입력해주세요</p>
+</div>
+<button onclick="openLoginAlert('pwd')">버튼</button>
+<script>
+    function alertAction(action){
+        document.getElementById('alert').style.display = action
+    }
+
+    function openLoginAlert(alertbox) {
+        document.getElementById(alertbox).style.display = 'block'
+    }
+</script>
+</body>
+</html>
