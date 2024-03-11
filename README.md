@@ -20,8 +20,8 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] function의 파라미터 문법
 - [X] 자바스크립트 이벤트리스너
 - [X] 서브메뉴 만들어보기와 classList 다루기
-- [ ] jQuery 사용법 간단정리
-- [ ] 모달창만들기와 간단한 애니메이션
+- [X] jQuery 사용법 간단정리
+- [X] 모달창만들기와 간단한 애니메이션
 - [ ] 폼만들며 배워보는 if else
 - [ ] 공백검사 숙제와 else if 문법
 - [ ] input, change 이벤트와 and, or 연산자
