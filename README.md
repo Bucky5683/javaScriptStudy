@@ -18,8 +18,8 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] 동적 UI 만드는 스텝 (Alert 박스 만들기)
 - [X] 자바스크립트 function 문법 사용법
 - [X] function의 파라미터 문법
-- [ ] 자바스크립트 이벤트리스너
-- [ ] 서브메뉴 만들어보기와 classList 다루기
+- [X] 자바스크립트 이벤트리스너
+- [X] 서브메뉴 만들어보기와 classList 다루기
 - [ ] jQuery 사용법 간단정리
 - [ ] 모달창만들기와 간단한 애니메이션
 - [ ] 폼만들며 배워보는 if else
