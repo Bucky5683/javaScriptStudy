@@ -22,12 +22,12 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] 서브메뉴 만들어보기와 classList 다루기
 - [X] jQuery 사용법 간단정리
 - [X] 모달창만들기와 간단한 애니메이션
-- [ ] 폼만들며 배워보는 if else
-- [ ] 공백검사 숙제와 else if 문법
-- [ ] input, change 이벤트와 and, or 연산자
-- [ ] if/else, function 실력향상 과제
-- [ ] 변수문법과 Dark mode 버튼만들기
-- [ ] 변수 심화학습시간 & 저번시간 숙제
+- [X] 폼만들며 배워보는 if else
+- [X] 공백검사 숙제와 else if 문법
+- [X] input, change 이벤트와 and, or 연산자
+- [X] if/else, function 실력향상 과제
+- [X] 변수문법과 Dark mode 버튼만들기
+- [X] 변수 심화학습시간 & 저번시간 숙제
 </div>
 </details>
 <details>
