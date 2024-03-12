@@ -14,10 +14,10 @@
 
         <form action="success.html">
             <div class="my-3">
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" id="loginId">
             </div>
             <div class="my-3">
-                <input type="password" class="form-control">
+                <input type="password" class="form-control" id="loginPwd">
             </div>
             <button type="submit" class="btn btn-primary" id="send">전송</button>
             <button type="button" class="btn btn-danger" id="close">닫기</button>
@@ -72,12 +72,18 @@
 </script>
 
 <script>
-    $('#send').on('click', function(e){
+    $('form').on('submit', function(e){
         console.log('전송버튼 클릭');
-        var value = $('.form-control').val();
-        if (value == "") {
+        if (document.getElementById('loginId').value == '') {
             e.preventDefault();
             alert('아이디를 입력해주세요.')
+        }
+        if (document.getElementById('loginPwd').value == '') {
+            e.preventDefault();
+            alert('비밀번호를 입력해주세요.')
+        } else if (document.getElementById('loginPwd').value.length < 6){
+            e.preventDefault();
+            alert('비밀번호가 6자 미만입니다.')
         }
     });
 </script>
