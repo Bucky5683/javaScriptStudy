@@ -11,7 +11,7 @@
 #### JavaScript 입문과 웹UI 개발
 https://codingapple.com/course/javascript-jquery-ui/
 <details>
-<summary>Level 1</summary>
+<summary>Level 1 ✅</summary>
 <div markdown="1"> 
 
 - [X] 강의 소개와 자바스크립트의 근본
