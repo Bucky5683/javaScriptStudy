@@ -34,9 +34,9 @@ https://codingapple.com/course/javascript-jquery-ui/
 <summary>Level 2</summary>
 <div markdown="1"> 
 
-- [ ] 변수, 사칙연산 실력향상 과제
-- [ ] setTimeout 타이머주는 법
-- [ ] 정규식으로 이메일형식 검증해보기
+- [X] 변수, 사칙연산 실력향상 과제
+- [X] setTimeout 타이머주는 법
+- [X] 정규식으로 이메일형식 검증해보기
 - [ ] 코드 3줄로 캐러셀 (이미지 슬라이드) 만들기
 - [ ] 코드 3줄로 캐러셀 (이미지 슬라이드) 만들기 2
 - [ ] 함수의 return 문법 & 소수 다루기
