@@ -8,7 +8,7 @@
 </p>
 
 [강의 정리 링크](https://miniature-booklet-a14.notion.site/69c7719584cf412c9d35ed5eeacf6918?v=407a7849f3dd43e1a235370b1343fe83)
-<br\><br\><br\>
+<br/><br/><br/>
 
 ## JavaScript 입문과 웹UI 개발
 https://codingapple.com/course/javascript-jquery-ui/
