@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 </p>
-<br/><br/><br/>
 
 ## JavaScript 입문과 웹UI 개발
 https://codingapple.com/course/javascript-jquery-ui/
