@@ -10,9 +10,7 @@
 
 ## JavaScript 입문과 웹UI 개발
 https://codingapple.com/course/javascript-jquery-ui/
-<details>
-<summary>Level 1 ✅</summary>
-<div markdown="1"> 
+### Level 1 ✅
 
 - [X] 강의 소개와 자바스크립트의 근본
 - [X] 동적 UI 만드는 스텝 (Alert 박스 만들기)
@@ -28,11 +26,8 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] if/else, function 실력향상 과제
 - [X] 변수문법과 Dark mode 버튼만들기
 - [X] 변수 심화학습시간 & 저번시간 숙제
-</div>
-</details>
-<details>
-<summary>Level 2 ✅</summary>
-<div markdown="1"> 
+
+### Level 2 ✅
 
 - [X] 변수, 사칙연산 실력향상 과제
 - [X] setTimeout 타이머주는 법
@@ -47,11 +42,8 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] 이벤트 버블링과 이벤트관련 함수들
 - [X] 이벤트 버블링 응용과 dataset
 - [X] 쓸만한 자바스크립트 라이브러리들
-</div>
-</details>
-<details>
-<summary>Level 3</summary>
-<div markdown="1"> 
+
+### Level 3
 
 - [ ] Array 와 Object 자료형
 - [ ] 약간 복잡한 Array & Object 데이터바인딩
@@ -75,8 +67,6 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [ ] (실전) 웹개발 기능대회 예제
 - [ ] 웹개발 기능대회 예제 답안
 - [ ] 모던 웹개발시 알아야할 것들
-</div>
-</details>
 <br/><br/><br/>
 
 ## 쉽게 이해하는 JavaScript 객체지향 & ES6 신문법
