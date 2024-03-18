@@ -1,5 +1,5 @@
-## 코딩애플 강의
-### 코딩애플 자바스크립트 강의(기초/심화) 모두 수강하며 따라쳐보기
+# 코딩애플 강의
+## 코딩애플 자바스크립트 강의(기초/심화) 모두 수강하며 따라쳐보기
 
 
 <p>
@@ -7,6 +7,10 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 </p>
+
+### 공부 현황
+
+[강의 정리 링크](https://miniature-booklet-a14.notion.site/69c7719584cf412c9d35ed5eeacf6918?v=407a7849f3dd43e1a235370b1343fe83)
 
 #### JavaScript 입문과 웹UI 개발
 https://codingapple.com/course/javascript-jquery-ui/
