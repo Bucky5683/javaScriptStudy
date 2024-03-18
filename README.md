@@ -83,9 +83,6 @@ https://codingapple.com/course/javascript-jquery-ui/
 
 ## 쉽게 이해하는 JavaScript 객체지향 & ES6 신문법
 https://codingapple.com/course/javascript-es6/
-<details>
-<summary>part 1</summary>
-<div markdown="1"> 
 
 - [ ] 강의 OT (수강대상, 강의 특징정리)
 - [ ] 강의 듣기 전 자바스크립트 기본 문법 총정리
@@ -102,5 +99,3 @@ https://codingapple.com/course/javascript-es6/
 - [ ] Template literals / tagged literals 연습문제 2개와 풀이
 - [ ] 모든 괄호를 없애주는 Spread Operator 활용방법 1
 - [ ] Spread Operator 활용방법 2 & apply, call 함수 알아보기
-</div>
-</details>
