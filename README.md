@@ -31,7 +31,7 @@ https://codingapple.com/course/javascript-jquery-ui/
 </div>
 </details>
 <details>
-<summary>Level 2</summary>
+<summary>Level 2 ✅</summary>
 <div markdown="1"> 
 
 - [X] 변수, 사칙연산 실력향상 과제
@@ -44,9 +44,9 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] 스크롤 이벤트 숙제 해설 & 페이지 스크롤 응용
 - [X] 탭기능 만들며 배우는 for 반복문
 - [X] 탭기능 만들며 배우는 for 반복문 2
-- [ ] 이벤트 버블링과 이벤트관련 함수들
-- [ ] 이벤트 버블링 응용과 dataset
-- [ ] 쓸만한 자바스크립트 라이브러리들
+- [X] 이벤트 버블링과 이벤트관련 함수들
+- [X] 이벤트 버블링 응용과 dataset
+- [X] 쓸만한 자바스크립트 라이브러리들
 </div>
 </details>
 <details>
