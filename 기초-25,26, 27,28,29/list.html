@@ -68,21 +68,25 @@
     }
 </script>
 <script>
-    let formSelect = $('.form-select');
+    var pants = [28, 30, 32];
+    var shirts = [95, 100, 105];
+    var formSelect = $('.form-select');
     formSelect.eq(0).on('input', function(){
         console.log('is input!')
         var value = formSelect.eq(0).val();
         if (value == '셔츠') {
             formSelect.eq(1).removeClass('form-hide');
             formSelect.eq(1).html('');
-            let 템플릿 = `<option>95</option><option>100</option>`;
-            formSelect.eq(1).append(템플릿)
+            shirts.forEach(function(a){
+                $('.form-select').eq(1).append(`<option>${a}</option>`)
+            })
         }
         else if (value == '바지') {
             formSelect.eq(1).removeClass('form-hide');
             formSelect.eq(1).html('');
-            let 템플릿 = `<option>28</option><option>30</option>`;
-            formSelect.eq(1).append(템플릿)
+            pants.forEach(function(a){
+                $('.form-select').eq(1).append(`<option>${a}</option>`)
+            })
         }
         else {
             formSelect.eq(1).addClass('form-hide');
