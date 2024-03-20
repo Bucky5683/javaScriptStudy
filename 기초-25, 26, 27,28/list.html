@@ -13,6 +13,7 @@
     <select class="form-select mt-2">
         <option>모자</option>
         <option>셔츠</option>
+        <option>바지</option>
     </select>
     <select class="form-select mt-2 form-hide">
         <option>95</option>
@@ -73,7 +74,17 @@
         var value = formSelect.eq(0).val();
         if (value == '셔츠') {
             formSelect.eq(1).removeClass('form-hide');
-        } else {
+            formSelect.eq(1).html('');
+            let 템플릿 = `<option>95</option><option>100</option>`;
+            formSelect.eq(1).append(템플릿)
+        }
+        else if (value == '바지') {
+            formSelect.eq(1).removeClass('form-hide');
+            formSelect.eq(1).html('');
+            let 템플릿 = `<option>28</option><option>30</option>`;
+            formSelect.eq(1).append(템플릿)
+        }
+        else {
             formSelect.eq(1).addClass('form-hide');
         }
     });
