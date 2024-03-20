@@ -1,6 +1,5 @@
-## 코딩애플 강의
-### 코딩애플 자바스크립트 강의(기초/심화) 모두 수강하며 따라쳐보기
-
+# 코딩애플 자바스크립트 강의
+> 자바스크립트 강의 (기초/심화) 모두 수강하며 따라쳐보기
 
 <p>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
@@ -8,11 +7,9 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 </p>
 
-#### JavaScript 입문과 웹UI 개발
+## JavaScript 입문과 웹UI 개발
 https://codingapple.com/course/javascript-jquery-ui/
-<details>
-<summary>Level 1 ✅</summary>
-<div markdown="1"> 
+### Level 1 ✅
 
 - [X] 강의 소개와 자바스크립트의 근본
 - [X] 동적 UI 만드는 스텝 (Alert 박스 만들기)
@@ -28,11 +25,8 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] if/else, function 실력향상 과제
 - [X] 변수문법과 Dark mode 버튼만들기
 - [X] 변수 심화학습시간 & 저번시간 숙제
-</div>
-</details>
-<details>
-<summary>Level 2 ✅</summary>
-<div markdown="1"> 
+
+### Level 2 ✅
 
 - [X] 변수, 사칙연산 실력향상 과제
 - [X] setTimeout 타이머주는 법
@@ -47,11 +41,8 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] 이벤트 버블링과 이벤트관련 함수들
 - [X] 이벤트 버블링 응용과 dataset
 - [X] 쓸만한 자바스크립트 라이브러리들
-</div>
-</details>
-<details>
-<summary>Level 3</summary>
-<div markdown="1"> 
+
+### Level 3
 
 - [X] Array 와 Object 자료형
 - [X] 약간 복잡한 Array & Object 데이터바인딩
@@ -75,14 +66,10 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [ ] (실전) 웹개발 기능대회 예제
 - [ ] 웹개발 기능대회 예제 답안
 - [ ] 모던 웹개발시 알아야할 것들
-</div>
-</details>
+<br/><br/><br/>
 
-#### 쉽게 이해하는 JavaScript 객체지향 & ES6 신문법
+## 쉽게 이해하는 JavaScript 객체지향 & ES6 신문법
 https://codingapple.com/course/javascript-es6/
-<details>
-<summary>part 1</summary>
-<div markdown="1"> 
 
 - [ ] 강의 OT (수강대상, 강의 특징정리)
 - [ ] 강의 듣기 전 자바스크립트 기본 문법 총정리
@@ -99,5 +86,3 @@ https://codingapple.com/course/javascript-es6/
 - [ ] Template literals / tagged literals 연습문제 2개와 풀이
 - [ ] 모든 괄호를 없애주는 Spread Operator 활용방법 1
 - [ ] Spread Operator 활용방법 2 & apply, call 함수 알아보기
-</div>
-</details>
