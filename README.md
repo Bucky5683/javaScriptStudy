@@ -53,13 +53,13 @@ https://codingapple.com/course/javascript-jquery-ui/
 <summary>Level 3</summary>
 <div markdown="1"> 
 
-- [ ] Array 와 Object 자료형
-- [ ] 약간 복잡한 Array & Object 데이터바인딩
-- [ ] 데이터바인딩 숙제 & 문자중간에 변수넣는 법
-- [ ] Select 인풋 다루기
-- [ ] Select 2 : 자바스크립트로 html 생성하는 법
-- [ ] Select 3 : forEach, for in 반복문
-- [ ] array, for 반복문 실력향상 과제
+- [X] Array 와 Object 자료형
+- [X] 약간 복잡한 Array & Object 데이터바인딩
+- [X] 데이터바인딩 숙제 & 문자중간에 변수넣는 법
+- [X] Select 인풋 다루기
+- [X] Select 2 : 자바스크립트로 html 생성하는 법
+- [X] Select 3 : forEach, for in 반복문
+- [X] array, for 반복문 실력향상 과제
 - [ ] Ajax 1 : 개념정리
 - [ ] Ajax 2 : 상품 더보기 버튼 만들기
 - [ ] array에 자주 쓰는 sort, map, filter 함수
