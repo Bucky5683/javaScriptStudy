@@ -8,6 +8,17 @@
     <title>Title</title>
 </head>
 <body>
+<form class="container my-5 form-group">
+    <p>상품선택</p>
+    <select class="form-select mt-2">
+        <option>모자</option>
+        <option>셔츠</option>
+    </select>
+    <select class="form-select mt-2 form-hide">
+        <option>95</option>
+        <option>100</option>
+    </select>
+</form>
 <div class="card-group container">
     <div class="card">
         <img src="https://via.placeholder.com/600">
@@ -54,6 +65,18 @@
         document.getElementsByClassName('card-title')[i].innerHTML = object.title
         document.getElementsByClassName('card-price')[i].innerHTML = "가격 : " + object.price
     }
+</script>
+<script>
+    let formSelect = $('.form-select');
+    formSelect.eq(0).on('input', function(){
+        console.log('is input!')
+        var value = formSelect.eq(0).val();
+        if (value == '셔츠') {
+            formSelect.eq(1).removeClass('form-hide');
+        } else {
+            formSelect.eq(1).addClass('form-hide');
+        }
+    });
 </script>
 </body>
 </html>
