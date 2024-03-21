@@ -9,7 +9,7 @@ let sortCardABC = true;
 
 $('.row').html('');
 
-addCardHtml();
+addCardHtml(products);
 
 $('#more').click(function(){
     moreButtonCount++;
@@ -28,7 +28,7 @@ $('#more').click(function(){
                 data.forEach(function (product) {
                     products.push(product);
                 });
-                addCardHtml()
+                addCardHtml(products)
             });
     }
 });
@@ -52,11 +52,20 @@ $('#sort-button').click(function(){
         sortCardABC = true;
         document.getElementById('sort-button').innerText = "가나다순";
     }
-    addCardHtml()
+    addCardHtml(products)
 });
-function addCardHtml() {
+
+$('#filter-button').click(function() {
+    $('.row').html('');
+    var newProducts = products.filter(function (a){
+        return a.price < 60000
+    })
+    addCardHtml(newProducts)
+})
+
+function addCardHtml(array) {
     //카드 전체
-    products.forEach(function(product, _) {
+    array.forEach(function(product, _) {
         let cardhtml = document.createElement('div');
         cardhtml.classList.add('col-sm-4');
 
