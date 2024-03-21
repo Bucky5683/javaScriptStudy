@@ -51,13 +51,13 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] Select 2 : 자바스크립트로 html 생성하는 법
 - [X] Select 3 : forEach, for in 반복문
 - [X] array, for 반복문 실력향상 과제
-- [ ] Ajax 1 : 개념정리
-- [ ] Ajax 2 : 상품 더보기 버튼 만들기
-- [ ] array에 자주 쓰는 sort, map, filter 함수
-- [ ] sort, map, filter 상품정렬기능 숙제
-- [ ] DOM이라는 용어 개념정리 & load 이벤트
-- [ ] 장바구니 기능과 localStorage
-- [ ] 장바구니 기능과 localStorage 숙제
+- [X] Ajax 1 : 개념정리
+- [X] Ajax 2 : 상품 더보기 버튼 만들기
+- [X] array에 자주 쓰는 sort, map, filter 함수
+- [X] sort, map, filter 상품정렬기능 숙제
+- [X] DOM이라는 용어 개념정리 & load 이벤트
+- [X] 장바구니 기능과 localStorage
+- [X] 장바구니 기능과 localStorage 숙제
 - [ ] position : sticky 활용하기
 - [ ] 스크롤 위치에 따라 변하는 애니메이션 : Apple Music UI 만들기
 - [ ] 캐러셀에 스와이프 기능 만들기
