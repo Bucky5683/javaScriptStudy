@@ -72,13 +72,13 @@ https://codingapple.com/course/javascript-jquery-ui/
 https://codingapple.com/course/javascript-es6/
 
 ### part 1
-- [ ] 강의 OT (수강대상, 강의 특징정리)
-- [ ] 강의 듣기 전 자바스크립트 기본 문법 총정리
-- [ ] this 키워드를 알아보자 1. 함수와 Object에서 사용하면?
-- [ ] this 키워드를 알아보자 2. event listener와 constructor
-- [ ] Arrow function은 function을 대체하는 신문법이 아님
-- [ ] this & arrow function 연습문제 3개
-- [ ] this & arrow function 연습문제 해설
+- [X] 강의 OT (수강대상, 강의 특징정리)
+- [X] 강의 듣기 전 자바스크립트 기본 문법 총정리
+- [X] this 키워드를 알아보자 1. 함수와 Object에서 사용하면?
+- [X] this 키워드를 알아보자 2. event listener와 constructor
+- [X] Arrow function은 function을 대체하는 신문법이 아님
+- [X] this & arrow function 연습문제 3개
+- [X] this & arrow function 연습문제 해설
 - [ ] 변수 신문법 총정리 1. var let const와 선언,할당,범위
 - [ ] 변수 신문법 총정리 2. Hoisting, 전역변수, 참조
 - [ ] 변수 연습문제 6개

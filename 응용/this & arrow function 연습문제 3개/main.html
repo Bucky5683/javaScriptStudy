@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="answer-first"></div>
+<div id="answer-second"></div>
+<div id="answer-third">
+    <button id="버튼">버튼이에요</button>
+</div>
+<script>
+    // 1. 간단한 메소드 만들기
+    var 사람 = {
+        name: '손흥민',
+        sayHi() {
+            console.log('안녕 나는 손흥민')
+        }
+    }
+    사람.sayHi();
+    document.getElementById('answer-first').innerHTML = "sayHi() {\n" +
+        "            console.log('안녕 나는 손흥민')\n" +
+        "        }"
+</script>
+<script>
+    // 2. 오브젝트 내의 데이터를 전부 더해주는 메소드 만들기
+    var 자료 = {
+        data : [1,2,3,4,5]
+    }
+
+    자료.전부더하기 = function () {
+        let sum = 0;
+        this.data.forEach(function(n) {
+            sum += n;
+        });
+
+        console.log(sum);
+    };
+    document.getElementById('answer-second').innerHTML = "자료.전부더하기 = function () {\n" +
+        "        let sum = 0;\n" +
+        "        this.data.forEach(function(n) {\n" +
+        "            sum += n;\n" +
+        "        });\n" +
+        "        \n" +
+        "        console.log(sum);\n" +
+        "    };"
+    자료.전부더하기();
+</script>
+<script>
+    document.getElementById('버튼').addEventListener('click', function(){
+        let 글자 = this.innerHTML
+        setTimeout(function () {
+            console.log(글자)
+        }, 1000)
+        document.getElementById('answer-third').innerHTML = "let 글자 = this.innerHTML\n" +
+            "        setTimeout(function () {\n" +
+            "            console.log(글자)\n" +
+            "        }, 1000)"
+    });
+</script>
+</body>
+</html>
