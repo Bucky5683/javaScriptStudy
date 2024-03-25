@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+</div>
+<script>
+    var 꺼낸거 = localStorage.getItem('cart');
+    꺼낸거 = JSON.parse(꺼낸거);
+    console.log(꺼낸거);
+    꺼낸거.forEach(function (element){
+        let title = document.createElement('p')
+        title.innerHTML = element
+        document.getElementsByClassName('container')[0].appendChild(title);
+    });
+</script>
+</body>
+</html>
