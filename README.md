@@ -71,6 +71,7 @@ https://codingapple.com/course/javascript-jquery-ui/
 ## 쉽게 이해하는 JavaScript 객체지향 & ES6 신문법
 https://codingapple.com/course/javascript-es6/
 
+### part 1
 - [ ] 강의 OT (수강대상, 강의 특징정리)
 - [ ] 강의 듣기 전 자바스크립트 기본 문법 총정리
 - [ ] this 키워드를 알아보자 1. 함수와 Object에서 사용하면?
@@ -86,3 +87,36 @@ https://codingapple.com/course/javascript-es6/
 - [ ] Template literals / tagged literals 연습문제 2개와 풀이
 - [ ] 모든 괄호를 없애주는 Spread Operator 활용방법 1
 - [ ] Spread Operator 활용방법 2 & apply, call 함수 알아보기
+
+### part 2
+- [ ] 자바스크립트 함수 업그레이드 하기(default parameter/argument)
+- [ ] 함수에서 쓰는 점3개 Rest 파라미터 알아보기
+- [ ] Spread, rest 파라미터 연습문제 8개
+- [ ] Spread, rest 파라미터 연습문제 답안
+- [ ] 이상한 Reference data type과 더 이상한 예제 3개
+- [ ] 객체지향1. Object 생성기계인 constructor를 만들어 써보자
+- [ ] 객체지향2. 이거보고 portotype 이해못하면 강의 접습니다
+- [ ] 객체지향3. prototype의 특징 몇가지
+- [ ] constructor, prototype 연습문제 4개
+- [ ] (간만에 쉬운거) ES5 방식으로 쉽게 구현하는 상속 기능
+- [ ] 객체지향4. ES6 방식으로 안쉽게 구현하는 상속 기능(class)
+- [ ] 객체지향5. class를 복사하는 extends / super
+- [ ] getter, setter 대체 왜 쓰는건지 알아보기
+- [ ] class, extends, getter, setter 연습문제 5개
+- [ ] class, extends, getter, setter 연습문제 답안
+
+### part 3
+- [ ] 틀린그림 찾기 능력이 향상되는 Destructuring 문법
+- [ ] import / export를 이용한 파일간 모듈식 개발
+- [ ] Stack, Queue를 이용한 웹브라우저 동작 원리
+- [ ] 동기/비동기 처리와 콜백함수라는 용어 깔끔하게 정리
+- [ ] 인간의 언어로 설명하는 ES6 Promise
+- [ ] Promise 어려워서 싫으면 async/await을 사용합시다
+- [ ] for in / for of 반복문과 enumerable, iterable 속성
+- [ ] Symbol 자료형은 쓸모없어보이는데 왜 있는거죠
+- [ ] 매우 짧게 알아보는 Map, Set 자료형
+- [ ] Web Components : 커스텀 HTML 태그 만들기
+- [ ] shadow DOM과 template으로 HTML 모듈화하기
+- [ ] class로 만들어보는 간단한 2D 게임 1 (배웠으면 써먹어야 하니까)
+- [ ] class로 만들어보는 간단한 2D 게임 2 (collision detection)
+- [ ] ?./??연산자 (optional chaining)
