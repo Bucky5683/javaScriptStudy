@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 </p>
 
-## JavaScript 입문과 웹UI 개발
+## JavaScript 입문과 웹UI 개발 ✔️
 https://codingapple.com/course/javascript-jquery-ui/
 ### Level 1 ✅
 
@@ -42,7 +42,7 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] 이벤트 버블링 응용과 dataset
 - [X] 쓸만한 자바스크립트 라이브러리들
 
-### Level 3
+### Level 3 ✅
 
 - [X] Array 와 Object 자료형
 - [X] 약간 복잡한 Array & Object 데이터바인딩
@@ -58,14 +58,14 @@ https://codingapple.com/course/javascript-jquery-ui/
 - [X] DOM이라는 용어 개념정리 & load 이벤트
 - [X] 장바구니 기능과 localStorage
 - [X] 장바구니 기능과 localStorage 숙제
-- [ ] position : sticky 활용하기
-- [ ] 스크롤 위치에 따라 변하는 애니메이션 : Apple Music UI 만들기
-- [ ] 캐러셀에 스와이프 기능 만들기
-- [ ] 캐러셀에 스와이프 기능 만들기 숙제 & 터치이벤트
-- [ ] 간혹 쓰는 Switch 문법
-- [ ] (실전) 웹개발 기능대회 예제
-- [ ] 웹개발 기능대회 예제 답안
-- [ ] 모던 웹개발시 알아야할 것들
+- [X] position : sticky 활용하기
+- [X] 스크롤 위치에 따라 변하는 애니메이션 : Apple Music UI 만들기
+- [X] 캐러셀에 스와이프 기능 만들기
+- [X] 캐러셀에 스와이프 기능 만들기 숙제 & 터치이벤트
+- [X] 간혹 쓰는 Switch 문법
+- [X] (실전) 웹개발 기능대회 예제
+- [X] 웹개발 기능대회 예제 답안
+- [X] 모던 웹개발시 알아야할 것들
 <br/><br/><br/>
 
 ## 쉽게 이해하는 JavaScript 객체지향 & ES6 신문법
