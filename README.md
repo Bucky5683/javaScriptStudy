@@ -79,14 +79,14 @@ https://codingapple.com/course/javascript-es6/
 - [X] Arrow function은 function을 대체하는 신문법이 아님
 - [X] this & arrow function 연습문제 3개
 - [X] this & arrow function 연습문제 해설
-- [ ] 변수 신문법 총정리 1. var let const와 선언,할당,범위
-- [ ] 변수 신문법 총정리 2. Hoisting, 전역변수, 참조
-- [ ] 변수 연습문제 6개
-- [ ] 변수 연습문제 해설
-- [ ] 자바스크립트가 문자 다루는 신기한 방법 (Template literals)
-- [ ] Template literals / tagged literals 연습문제 2개와 풀이
-- [ ] 모든 괄호를 없애주는 Spread Operator 활용방법 1
-- [ ] Spread Operator 활용방법 2 & apply, call 함수 알아보기
+- [X] 변수 신문법 총정리 1. var let const와 선언,할당,범위
+- [X] 변수 신문법 총정리 2. Hoisting, 전역변수, 참조
+- [X] 변수 연습문제 6개
+- [X] 변수 연습문제 해설
+- [X] 자바스크립트가 문자 다루는 신기한 방법 (Template literals)
+- [X] Template literals / tagged literals 연습문제 2개와 풀이
+- [X] 모든 괄호를 없애주는 Spread Operator 활용방법 1
+- [X] Spread Operator 활용방법 2 & apply, call 함수 알아보기
 
 ### part 2
 - [ ] 자바스크립트 함수 업그레이드 하기(default parameter/argument)
