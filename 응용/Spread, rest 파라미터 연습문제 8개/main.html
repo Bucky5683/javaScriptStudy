@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <div class="context">
+        <button id="ab-1">정답보기</button>
+        <div class="answer hide" id="a-1">
+        </div>
+    </div>
+    <div class="context">
+        <button id="ab-2">정답보기</button>
+        <div class="answer hide" id="a-2">
+        </div>
+    </div>
+    <div class="context">
+        <button id="ab-3">정답보기</button>
+        <div class="answer hide" id="a-3"></div>
+    </div>
+    <div class="context">
+        <button id="ab-4">정답보기</button>
+        <div class="answer hide" id="a-4"></div>
+    </div>
+    <div class="context">
+        <button id="ab-5">정답보기</button>
+        <div class="answer hide" id="a-5"></div>
+    </div>
+    <div class="context">
+        <button id="ab-6">정답보기</button>
+        <div class="answer hide" id="a-6"></div>
+    </div>
+    <div class="context">
+        <button id="ab-7">정답보기</button>
+        <div class="answer hide" id="a-7"></div>
+    </div>
+    <div class="context">
+        <button id="ab-8">정답보기</button>
+        <div class="answer hide" id="a-8"></div>
+    </div>
+</div>
+<style>
+    .hide {
+        display: none;
+    }
+    .context {
+        display: block;
+        padding: 10px;
+    }
+    .answer {
+        padding: 10px;
+    }
+</style>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+<script>
+    var click = false;
+    for (let i = 1; i < 9; i++){
+        const 버튼 = '#ab-' + i;
+        const 컨텐츠 = '#a-'+i;
+        $(버튼).on('click',function () {
+            if (click === true) {
+                $(버튼).html("정답보기");
+                $(컨텐츠).addClass('hide');
+                click = false;
+            } else {
+                $(버튼).html("정답가리기");
+                $(컨텐츠).removeClass('hide')
+                click = true;
+            }
+        })
+    }
+</script>
+
+<script>
+    //문제1
+    var a = [1,2,3];
+    var b = '김밥';
+    var c = [...b,...a];
+    console.log(c);
+    $('#a-1').html('[\'김\',\'밥\',1,2,3]')
+</script>
+
+<script>
+    //문제2
+    var a = [1,2,3];
+    var b = ['you', 'are'];
+    var c = function(a,b){
+        console.log( [[...a], ...[...b]][1] )
+    }
+    c(a,b);
+    $('#a-2').html('\'you\'');
+</script>
+
+<script>
+    //문제3
+    function 함수(a = 5, b = a * 2 ){
+        console.log(a + b);
+        return 10
+    }
+    함수(3);
+    $('#a-3').html('9');
+</script>
+
+<script>
+    //문제4
+    function 함수(a = 5, b = a * 2 ){
+        console.log(a + b);
+    }
+    함수(undefined, undefined);
+    $('#a-4').html('15');
+</script>
+
+<script>
+    //문제5
+    function 어레이(...values){
+        let newArray = [];
+        values.forEach(function (a) {
+            newArray.push(a)
+        })
+        return newArray;
+    }
+
+    var newArray = 어레이(1,2,3,4,5);
+    console.log(newArray);
+    $('#a-5').html('function 어레이(...values){\n' +
+        '        let newArray = [];\n' +
+        '        values.forEach(function (a) {\n' +
+        '            newArray.push(a)\n' +
+        '        })\n' +
+        '        return newArray;\n' +
+        '    }')
+</script>
+
+<script>
+    //문제6
+    var numbers = [2,3,4,5,6,1,3,2,5,5,4,6,7];
+    console.log(Math.max(...numbers));
+    $('#a-6').html('Math.max(...numbers)')
+</script>
+
+<script>
+    //문제7
+    function 정렬(values) {
+        let newValues = [...values];
+        console.log(newValues.sort());
+    }
+    정렬('bear');
+    $('#a-7').html('function 정렬(values) {\n' +
+        '        let newValues = [...values];\n' +
+        '        console.log(newValues.sort());\n' +
+        '    }\n' +
+        '    정렬(\'bear\');')
+</script>
+
+<script>
+    //문제8
+    function 글자세기(글){
+
+        var 결과 = {};
+        [...글].forEach(function(a){
+            if( 결과[a] > 0 ){ 결과[a]++ } else { 결과[a] = 1 }
+        });
+        console.log(결과)
+    }
+    글자세기('aaaaawwwwweeeqqqrsw')
+    $('#a-8').html('function 글자세기(글){\n' +
+        '\n' +
+        '        var 결과 = {};\n' +
+        '        [...글].forEach(function(a){\n' +
+        '            if( 결과[a] > 0 ){ 결과[a]++ } else { 결과[a] = 1 }\n' +
+        '        });\n' +
+        '        console.log(결과)\n' +
+        '    }')
+</script>
+
+</body>
+</html>
