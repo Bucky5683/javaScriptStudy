@@ -89,15 +89,15 @@ https://codingapple.com/course/javascript-es6/
 - [X] Spread Operator 활용방법 2 & apply, call 함수 알아보기
 
 ### part 2
-- [ ] 자바스크립트 함수 업그레이드 하기(default parameter/argument)
-- [ ] 함수에서 쓰는 점3개 Rest 파라미터 알아보기
-- [ ] Spread, rest 파라미터 연습문제 8개
-- [ ] Spread, rest 파라미터 연습문제 답안
-- [ ] 이상한 Reference data type과 더 이상한 예제 3개
-- [ ] 객체지향1. Object 생성기계인 constructor를 만들어 써보자
-- [ ] 객체지향2. 이거보고 portotype 이해못하면 강의 접습니다
-- [ ] 객체지향3. prototype의 특징 몇가지
-- [ ] constructor, prototype 연습문제 4개
+- [X] 자바스크립트 함수 업그레이드 하기(default parameter/argument)
+- [X] 함수에서 쓰는 점3개 Rest 파라미터 알아보기
+- [X] Spread, rest 파라미터 연습문제 8개
+- [X] Spread, rest 파라미터 연습문제 답안
+- [X] 이상한 Reference data type과 더 이상한 예제 3개
+- [X] 객체지향1. Object 생성기계인 constructor를 만들어 써보자
+- [X] 객체지향2. 이거보고 portotype 이해못하면 강의 접습니다
+- [X] 객체지향3. prototype의 특징 몇가지
+- [X] constructor, prototype 연습문제 4개
 - [ ] (간만에 쉬운거) ES5 방식으로 쉽게 구현하는 상속 기능
 - [ ] 객체지향4. ES6 방식으로 안쉽게 구현하는 상속 기능(class)
 - [ ] 객체지향5. class를 복사하는 extends / super
