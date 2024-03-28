@@ -106,7 +106,7 @@ https://codingapple.com/course/javascript-es6/
 - [X] class, extends, getter, setter 연습문제 답안
 
 ### part 3
-- [ ] 틀린그림 찾기 능력이 향상되는 Destructuring 문법
+- [X] 틀린그림 찾기 능력이 향상되는 Destructuring 문법
 - [ ] import / export를 이용한 파일간 모듈식 개발
 - [ ] Stack, Queue를 이용한 웹브라우저 동작 원리
 - [ ] 동기/비동기 처리와 콜백함수라는 용어 깔끔하게 정리
