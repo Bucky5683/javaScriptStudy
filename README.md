@@ -98,12 +98,12 @@ https://codingapple.com/course/javascript-es6/
 - [X] 객체지향2. 이거보고 portotype 이해못하면 강의 접습니다
 - [X] 객체지향3. prototype의 특징 몇가지
 - [X] constructor, prototype 연습문제 4개
-- [ ] (간만에 쉬운거) ES5 방식으로 쉽게 구현하는 상속 기능
-- [ ] 객체지향4. ES6 방식으로 안쉽게 구현하는 상속 기능(class)
-- [ ] 객체지향5. class를 복사하는 extends / super
-- [ ] getter, setter 대체 왜 쓰는건지 알아보기
-- [ ] class, extends, getter, setter 연습문제 5개
-- [ ] class, extends, getter, setter 연습문제 답안
+- [X] (간만에 쉬운거) ES5 방식으로 쉽게 구현하는 상속 기능
+- [X] 객체지향4. ES6 방식으로 안쉽게 구현하는 상속 기능(class)
+- [X] 객체지향5. class를 복사하는 extends / super
+- [X] getter, setter 대체 왜 쓰는건지 알아보기
+- [X] class, extends, getter, setter 연습문제 5개
+- [X] class, extends, getter, setter 연습문제 답안
 
 ### part 3
 - [ ] 틀린그림 찾기 능력이 향상되는 Destructuring 문법
