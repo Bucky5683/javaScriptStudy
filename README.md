@@ -107,11 +107,11 @@ https://codingapple.com/course/javascript-es6/
 
 ### part 3
 - [X] 틀린그림 찾기 능력이 향상되는 Destructuring 문법
-- [ ] import / export를 이용한 파일간 모듈식 개발
-- [ ] Stack, Queue를 이용한 웹브라우저 동작 원리
-- [ ] 동기/비동기 처리와 콜백함수라는 용어 깔끔하게 정리
-- [ ] 인간의 언어로 설명하는 ES6 Promise
-- [ ] Promise 어려워서 싫으면 async/await을 사용합시다
+- [X] import / export를 이용한 파일간 모듈식 개발
+- [X] Stack, Queue를 이용한 웹브라우저 동작 원리
+- [X] 동기/비동기 처리와 콜백함수라는 용어 깔끔하게 정리
+- [X] 인간의 언어로 설명하는 ES6 Promise
+- [X] Promise 어려워서 싫으면 async/await을 사용합시다
 - [ ] for in / for of 반복문과 enumerable, iterable 속성
 - [ ] Symbol 자료형은 쓸모없어보이는데 왜 있는거죠
 - [ ] 매우 짧게 알아보는 Map, Set 자료형
