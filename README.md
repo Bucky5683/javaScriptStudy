@@ -112,11 +112,11 @@ https://codingapple.com/course/javascript-es6/
 - [X] 동기/비동기 처리와 콜백함수라는 용어 깔끔하게 정리
 - [X] 인간의 언어로 설명하는 ES6 Promise
 - [X] Promise 어려워서 싫으면 async/await을 사용합시다
-- [ ] for in / for of 반복문과 enumerable, iterable 속성
-- [ ] Symbol 자료형은 쓸모없어보이는데 왜 있는거죠
-- [ ] 매우 짧게 알아보는 Map, Set 자료형
-- [ ] Web Components : 커스텀 HTML 태그 만들기
-- [ ] shadow DOM과 template으로 HTML 모듈화하기
-- [ ] class로 만들어보는 간단한 2D 게임 1 (배웠으면 써먹어야 하니까)
-- [ ] class로 만들어보는 간단한 2D 게임 2 (collision detection)
-- [ ] ?./??연산자 (optional chaining)
+- [x] for in / for of 반복문과 enumerable, iterable 속성
+- [x] Symbol 자료형은 쓸모없어보이는데 왜 있는거죠
+- [x] 매우 짧게 알아보는 Map, Set 자료형
+- [x] Web Components : 커스텀 HTML 태그 만들기
+- [x] shadow DOM과 template으로 HTML 모듈화하기
+- [x] class로 만들어보는 간단한 2D 게임 1 (배웠으면 써먹어야 하니까)
+- [x] class로 만들어보는 간단한 2D 게임 2 (collision detection)
+- [x] ?./??연산자 (optional chaining)
